@@ -1,4 +1,6 @@
 
+print '#!/bin/sh\n'
+
 print 'sudo iptables -F "chinadrop"'
 print 'sudo iptables -X "chinadrop"'
 
